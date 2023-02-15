@@ -27,6 +27,10 @@ img {
   pointer-events: none;
 }
 
+.dark-mode .expertise-darkmode {
+  color:#ffc200;
+}
+
 .full-screen {
   padding: 8rem 0;
 }
