@@ -110,6 +110,11 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
+  background: #0c0c0d;
+  color: #ffc200;
+}
+.dark-mode .custom-btn:hover {
+  background: #252525;
   color: #ffc200;
 }
 .custom-btn.custom-btn-bg {
@@ -454,6 +459,10 @@ b, strong {
 .owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffc200;
 }
+
+.dark-mode .owl-theme .owl-nav [class*=owl-]:hover {
+  color: #ffffff;
+}
 .owl-theme .owl-dots .owl-dot {
   outline: none;
 }
@@ -633,4 +642,9 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+}
+
+
+.dark-mode #get-started {
+  color:#ffc200;
 }
