@@ -345,7 +345,6 @@ b, strong {
   font-size: 30px;
   color: #ffffff;
 }
-
 .dark-mode {
   background: #0c0c0d;
 }
@@ -647,4 +646,50 @@ b, strong {
 
 .dark-mode #get-started {
   color:#ffc200;
+}
+
+/*** Hands-On ***/
+.feature-item {
+  transition: .5s;
+  margin-bottom: 20px;
+}
+
+.feature-item:hover {
+  margin-top: -15px;
+  background-color: #000000 !important;
+}
+.dark-mode .feature-item:hover {
+  margin-top: -15px;
+  background-color: #ffc200 !important;
+}
+.dark-mode .feature-item:hover #color-1{
+  color:#000000 !important;
+}
+.feature-item:hover #text-1{
+  color:#d0d0d0 !important;
+}
+.dark-mode .feature-item:hover #text-1{
+  color:#000000 !important;
+}
+
+.feature-item{
+  border-radius: 20%;
+}
+
+.dark-mode .feature-item {
+  background: #00000029 !important;
+}
+
+#button-1{
+  color: #ffc200;
+}
+
+.dark-mode .feature-item:hover #button-1{
+  color:#000000 !important;
+}
+
+#hands-on-btn{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
